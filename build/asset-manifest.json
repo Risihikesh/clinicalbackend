@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/static/css/main.74f60f2f.css",
-    "main.js": "/static/js/main.1fa6d8ad.js",
+    "main.js": "/static/js/main.8a8537c8.js",
     "static/js/787.99f00595.chunk.js": "/static/js/787.99f00595.chunk.js",
     "static/media/MEDICAK.jpg": "/static/media/MEDICAK.1814d44ec78e3e776368.jpg",
     "static/media/ima.png": "/static/media/ima.79ce09cb4b25db128305.png",
     "static/media/yes-no.svg": "/static/media/yes-no.4e0e2d1529e4976b25d7007e9786a3e4.svg",
     "index.html": "/index.html",
     "main.74f60f2f.css.map": "/static/css/main.74f60f2f.css.map",
-    "main.1fa6d8ad.js.map": "/static/js/main.1fa6d8ad.js.map",
+    "main.8a8537c8.js.map": "/static/js/main.8a8537c8.js.map",
     "787.99f00595.chunk.js.map": "/static/js/787.99f00595.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.74f60f2f.css",
-    "static/js/main.1fa6d8ad.js"
+    "static/js/main.8a8537c8.js"
   ]
 }
