@@ -1,25 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.a903594e.css",
-    "main.js": "/static/js/main.47614fea.js",
-    "static/js/787.99f00595.chunk.js": "/static/js/787.99f00595.chunk.js",
-    "static/media/CDAC Meeting.svg": "/static/media/CDAC Meeting.55288e7a0d74cb446f9ef8b4abdecf9d.svg",
-    "static/media/MEDICAK.jpg": "/static/media/MEDICAK.1814d44ec78e3e776368.jpg",
-    "static/media/SQ_5.png": "/static/media/SQ_5.ea9994241a38ef2493af.png",
-    "static/media/ima.png": "/static/media/ima.79ce09cb4b25db128305.png",
-    "static/media/SQ_Time.png": "/static/media/SQ_Time.e6c57c18a8f4c142b2e1.png",
-    "static/media/SQ_0.png": "/static/media/SQ_0.1de17f10f2e9f45bf4d1.png",
-    "static/media/SQ_6.png": "/static/media/SQ_6.0e3b60a76181a2a6e69e.png",
-    "static/media/SQ_3.png": "/static/media/SQ_3.4eb6894e64973ac9ab73.png",
-    "static/media/news2.jpeg": "/static/media/news2.5ebb4e86781cb709d943.jpeg",
-    "static/media/yes-no.svg": "/static/media/yes-no.4e0e2d1529e4976b25d7007e9786a3e4.svg",
+    "main.css": "/static/css/main.5fc3e44d.css",
+    "main.js": "/static/js/main.1145a344.js",
+    "static/js/787.c875205c.chunk.js": "/static/js/787.c875205c.chunk.js",
     "index.html": "/index.html",
-    "main.a903594e.css.map": "/static/css/main.a903594e.css.map",
-    "main.47614fea.js.map": "/static/js/main.47614fea.js.map",
-    "787.99f00595.chunk.js.map": "/static/js/787.99f00595.chunk.js.map"
+    "main.5fc3e44d.css.map": "/static/css/main.5fc3e44d.css.map",
+    "main.1145a344.js.map": "/static/js/main.1145a344.js.map",
+    "787.c875205c.chunk.js.map": "/static/js/787.c875205c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a903594e.css",
-    "static/js/main.47614fea.js"
+    "static/css/main.5fc3e44d.css",
+    "static/js/main.1145a344.js"
   ]
 }
