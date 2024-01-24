@@ -86,16 +86,21 @@ server.use(
   })
 );
 server.use(passport.authenticate('session'));
-const allowedOrigins = [
-  'http://localhost:8001',
-  'http://localhost:8000',
-  'https://clinical-0srw.onrender.com',
-];
+// const allowedOrigins = [
+//   'http://localhost:8001',
+//   'http://localhost:8000',
+//   'https://clinical-0srw.onrender.com',
+// ];
+// server.use(
+//   cors({ origin: allowedOrigins,
+//   methods: ['GET', 'POST'],
+//   credentials: true,
+//   exposedHeaders: ['X-Total-Count'],
+//   })
+// );
 server.use(
-  cors({ origin: allowedOrigins,
-  methods: ['GET', 'POST'],
-  credentials: true,
-  exposedHeaders: ['X-Total-Count'],
+  cors({
+    exposedHeaders: ['X-Total-Count'],
   })
 );
 server.use(express.json()); // to parse req.body
