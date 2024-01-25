@@ -29,6 +29,8 @@ const { env } = require('process');
 
 const endpointSecret = process.env.ENDPOINT_SECRET;
 
+const stripe = require('stripe')(process.env.STRIPE_SERVER_KEY);
+
 server.post(
   '/webhook',
   express.raw({ type: 'application/json' }),
@@ -194,7 +196,7 @@ passport.deserializeUser(function (user, cb) {
 // Payments
 
 // This is your test secret API key.
-const stripe = require('stripe')(process.env.STRIPE_SERVER_KEY);
+
 
 server.post('/create-payment-intent', async (req, res) => {
   const { totalAmount, orderId } = req.body;
