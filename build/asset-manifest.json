@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.9979a785.css",
-    "main.js": "/static/js/main.02e63ff4.js",
+    "main.js": "/static/js/main.aa186d22.js",
     "static/js/787.99f00595.chunk.js": "/static/js/787.99f00595.chunk.js",
     "static/media/CDAC Meeting.svg": "/static/media/CDAC Meeting.55288e7a0d74cb446f9ef8b4abdecf9d.svg",
     "static/media/MEDICAK.jpg": "/static/media/MEDICAK.1814d44ec78e3e776368.jpg",
@@ -15,11 +15,11 @@
     "static/media/yes-no.svg": "/static/media/yes-no.4e0e2d1529e4976b25d7007e9786a3e4.svg",
     "index.html": "/index.html",
     "main.9979a785.css.map": "/static/css/main.9979a785.css.map",
-    "main.02e63ff4.js.map": "/static/js/main.02e63ff4.js.map",
+    "main.aa186d22.js.map": "/static/js/main.aa186d22.js.map",
     "787.99f00595.chunk.js.map": "/static/js/787.99f00595.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9979a785.css",
-    "static/js/main.02e63ff4.js"
+    "static/js/main.aa186d22.js"
   ]
 }
