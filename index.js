@@ -191,7 +191,7 @@ passport.deserializeUser(function (user, cb) {
   });
 });
 
-// Payments
+//Stripe Payments
 
 // This is your test secret API key.
 const stripe = require('stripe')(process.env.STRIPE_SERVER_KEY);

@@ -79,8 +79,8 @@ exports.resetPasswordRequest = async (req, res) => {
 
     // Also set token in email
     const resetPageLink =
-      'http://localhost:8000/reset-password?token=' + token + '&email=' + email;
-    const subject = 'reset password for e-commerce';
+      'https://clinical-0srw.onrender.com/reset-password?token=' + token + '&email=' + email;
+    const subject = 'reset password for Clinical AI Assisstance';
     const html = `<p>Click <a href='${resetPageLink}'>here</a> to Reset Password</p>`;
 
     // lets send email and a token in the mail body so we can verify that user has clicked right link
@@ -112,7 +112,7 @@ exports.resetPassword = async (req, res) => {
         user.password = hashedPassword;
         user.salt = salt;
         await user.save();
-        const subject = 'password successfully reset for e-commerce';
+        const subject = 'password successfully reset for Clinicial AI Assisstance';
         const html = `<p>Successfully able to Reset Password</p>`;
         if (email) {
           const response = await sendMail({ to: email, subject, html });
