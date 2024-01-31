@@ -212,6 +212,13 @@ server.post('/create-payment-intent', async (req, res) => {
      description: 'Software development services',
   shipping: {
     name: name,
+    address: {
+      line1: '510 Townsend St',
+      postal_code: '98140',
+      city: 'San Francisco',
+      state: 'CA',
+      country: 'US',
+    },
    
   },
   });
