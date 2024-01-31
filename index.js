@@ -76,7 +76,7 @@ opts.secretOrKey = process.env.JWT_SECRET_KEY;
 //middlewares
 
 
-server.use(express.static(path.resolve(__dirname, 'build')));
+server.use(express.static(path.resolve(__dirname, 'build copy')));
 server.use(cookieParser());
 server.use(
   session({
@@ -118,7 +118,7 @@ server.use('/orders', isAuth(), ordersRouter.router);
 
 // this line we add to make react router work in case of other routes doesnt match
 server.get('*', (req, res) =>
-  res.sendFile(path.resolve('build', 'index.html'))
+  res.sendFile(path.resolve('build copy', 'index.html'))
 );
 
 // Passport Strategies
@@ -197,7 +197,7 @@ passport.deserializeUser(function (user, cb) {
 const stripe = require('stripe')(process.env.STRIPE_SERVER_KEY);
 
 server.post('/create-payment-intent', async (req, res) => {
-  const { totalAmount, orderId } = req.body;
+  const { totalAmount, orderId, name } = req.body;
 
   // Create a PaymentIntent with the order amount and currency
   const paymentIntent = await stripe.paymentIntents.create({
@@ -211,14 +211,8 @@ server.post('/create-payment-intent', async (req, res) => {
     },
      description: 'Software development services',
   shipping: {
-    name: 'Demo user',
-    address: {
-      line1: 'bhagalpur',
-      postal_code: '812001',
-      city: 'Bhagalpur',
-      state: 'BR',
-      country: 'IN',
-    },
+    name: name,
+   
   },
   });
 
